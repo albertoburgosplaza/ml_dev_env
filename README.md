@@ -32,8 +32,13 @@ make build
 
 ### Step - 4: Start the coding environment
 
+On Linux:
 ```
 WORKSPACE=[PATH_TO_YOUR_CODEBASE] CPORT=[PORT] make code
+```
+On Windows:
+```
+make code WORKSPACE=[PATH_TO_YOUR_CODEBASE] CPORT=[PORT]
 ```
 
 Where ```PATH_TO_YOUR_CODEBASE``` is the path to your code base where all the scripts/notebooks are located and ```PORT``` is the port you want to run the IDE on
